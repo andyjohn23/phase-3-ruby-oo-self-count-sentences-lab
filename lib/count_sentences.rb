@@ -3,18 +3,20 @@ require 'pry'
 class String
 
   def sentence?
-    
+    self.end_with?(".")
   end
+  puts "Hi, my name is Sophie.".sentence?
+  # def question?
 
-  def question?
+  # end
 
-  end
+  # def exclamation?
 
-  def exclamation?
+  # end
 
-  end
+  # def count_sentences
 
-  def count_sentences
-
-  end
+  # end
 end
+
+
