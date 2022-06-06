@@ -7,15 +7,16 @@ class String
   # end
   # puts "Hi, my name is Sophie.".sentence?
 
-  def question?
-    self.end_with?("?")
-  end
-  puts "Hi, my name is Sophie?".question?
-
-
-  # def exclamation?
-
+  # def question?
+  #   self.end_with?("?")
   # end
+  # puts "Hi, my name is Sophie?".question?
+
+  def exclamation?
+    self.end_with?("!")
+  end
+
+  puts "Hi, my name is Sophie!".exclamation?
 
   # def count_sentences
 
